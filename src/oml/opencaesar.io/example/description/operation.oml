@@ -56,7 +56,22 @@ description <http://opencaesar.io/example/description/operation#> as operation {
 		base:hasCanonicalName "Train"
 	]
 
-	instance road-vehicle : operational:Entity [
+	instance road-vehicle : operational:RoadVehicle [
 		base:hasCanonicalName "Road Vehicle"
+		base:aggregates car
+		base:aggregates bus
+		base:aggregates heavy-truck
+	]
+
+	instance car : operational:Entity [
+		base:hasCanonicalName "Car"
+	]
+
+	instance bus : operational:Entity [
+		base:hasCanonicalName "Bus"
+	]
+
+	instance heavy-truck : operational:Entity [
+		base:hasCanonicalName "Heavy Truck"
 	]
 }
