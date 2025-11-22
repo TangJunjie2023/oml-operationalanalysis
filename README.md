@@ -36,6 +36,12 @@ WHERE {
 ORDER BY ?m_id
 ```
 
+# Setup CI/CD
+
+![1763816576432](image/README/1763816576432.png)
+
+
+
 
 # OML Template
 
@@ -146,3 +152,5 @@ The name of this project is `oml-template`. You can change it to your own projec
 - `src/oml/*` (namespaces of ontologies)
 - `src/sparcl/*` (namespaces of ontologies)
 - `src/shacl/*` (namespaces of ontologies)
+
+
