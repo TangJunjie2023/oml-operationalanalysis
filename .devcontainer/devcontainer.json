@@ -1,6 +1,6 @@
 {
-  "name": "Java 21 Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/java:21", // Java 21ベースの公式イメージ
+  "name": "OML Dev Container",
+  "image": "ghcr.io/UTNAK/oml-dev:latest", // ご自身の情報に置き換えてください
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
       "version": "21"
