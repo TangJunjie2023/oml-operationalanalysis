@@ -19,13 +19,13 @@ jobs:
         run: ./gradlew load
 
       - name: Run Scripts
-        run: quarto render script/analysis_matrix.qmd
+        run: quarto render script/analysis_matrix.qmd --output-dir public_html
       - name: Check Results
-        run: ls script
+        run: ls script/public_html
       - name: Publish Docs
         uses: actions/upload-pages-artifact@v4
         with:
-          path: script/*.html
+          path: public_html
 
   deploy:
     if: contains(github.event.head_commit.message, '[omlanalysis]')
