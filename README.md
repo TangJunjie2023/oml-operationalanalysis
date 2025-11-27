@@ -1,3 +1,6 @@
+# CI/CD 
+[published pages](https://utnak.github.io/oml-operationalanalysis/omlanalysis/analysis_matrix.html)
+
 # Query Pattern
 
 ## 01 Get Capability and Mission 'operational:requires'

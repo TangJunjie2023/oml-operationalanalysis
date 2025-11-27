@@ -20,7 +20,7 @@ jobs:
       - name: Run Scripts
         run: quarto render script/analysis_matrix.qmd --output-dir ../public_html/omlanalysis
       - name: Check Results
-        run: ls script/public_html
+        run: ls public_html
       - name: Publish Docs
         uses: actions/upload-pages-artifact@v4
         with:
