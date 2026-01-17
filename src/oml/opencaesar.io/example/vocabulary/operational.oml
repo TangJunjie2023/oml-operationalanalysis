@@ -46,4 +46,13 @@ vocabulary <http://opencaesar.io/example/vocabulary/operational#> as operational
 	]
 
 	concept RoadVehicle < Entity
+
+	concept OperationalActivity
+
+	relation entity MapsTo [
+		from OperationalActivity
+		to Capability
+		forward mapsTo
+		reverse isMappedFrom
+	]
 }
